@@ -2,4 +2,4 @@
 #/_01_cloud-provider-payment8001/target/
 #/_02_cloud-consumer-order80/target/
 #/_03_cloud-eureka-server7001/target/
-/../target/
+target/
