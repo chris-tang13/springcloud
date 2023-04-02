@@ -11,6 +11,10 @@
         <module>_01_cloud-provider-payment8001</module>
         <module>_02_cloud-consumer-order80</module>
         <module>_03_cloud-eureka-server7001</module>
+        <module>_08_nacos-cloudalibaba-provider-payment9001</module>
+        <module>_09_nacos-cloudalibaba-provider-payment9002</module>
+        <module>_10_nacos-cloudalibaba-consumer-order9003</module>
+        <module>_11_cloudalibaba-config-nacos-client3377</module>
     </modules>
     <packaging>pom</packaging>
 
