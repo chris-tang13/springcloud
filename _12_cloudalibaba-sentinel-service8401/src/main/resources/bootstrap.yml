@@ -1,0 +1,21 @@
+server:
+  port: 8401
+
+
+spring:
+  profiles:
+    active: dev # 表示开发环境
+      #active: test # 表示测试环境
+    #active: info
+  application:
+    name: nacos-sentinel
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.66.111:8848
+      #      配置中心的配置
+      config:
+        server-addr: 192.168.66.111:8848
+        file-extension: yaml
+        group: my-group
+        namespace:  14b4b845-8b97-4741-9050-d4c9c8eab8df
